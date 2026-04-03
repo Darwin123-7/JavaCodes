@@ -8,7 +8,7 @@ public class Vowel_or_Consonant {
         String input = s.next();
         char getLetter = input.toUpperCase().charAt(0);
 
-        switch(getLetter) {
+        switch (getLetter) {
 
             case 'A':
             case 'E':
