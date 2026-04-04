@@ -29,5 +29,17 @@ public class MyBook {
       book.setPrice(20.0);
       book.setTitle("The Idiot");
       book.display();
+
+      String mytitle = bookTitle(book, "Darwn");
+System.out.println("Title: " + mytitle);
+   }
+
+   public static String bookTitle(Book e, String newTitle) {
+String temp = e.title;
+e.title = newTitle;
+newTitle = temp;
+System.out.println(newTitle);
+return e.title;
+
    }
 }
