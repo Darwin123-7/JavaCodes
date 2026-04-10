@@ -4,6 +4,10 @@ public class Insurance {
    
       Scanner s = new Scanner(System.in);
    
+      int homePrice = 4000000;
+      int carPrice = 25000;
+      int healthBill = 6000;
+
       int homeCoverage = 300000;
       int carCoverage = 10000;
       int healthCoverage = 2000;
