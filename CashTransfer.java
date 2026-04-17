@@ -29,7 +29,7 @@ public class CashTransfer {
             String cashCode = codeNum(s);
             String actualCode = code();
             
-            if(cashCode.equals(code())) {
+            if(cashCode.equals(actualCode)) {
                System.out.println("System: Cash Received");
                System.out.println("No receiving fee");
                System.out.println("---Thank You for using our service---");
