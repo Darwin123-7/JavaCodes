@@ -1,28 +1,26 @@
 import java.util.Scanner;
-import java.util.Arrays ;
 public class Record {
    public static void main(String[] args) {
       Scanner s = new Scanner(System.in);
       String[][] name = new String[3][2];
    
    
-      for(int i = 0; i < name.length; i++) {
+     for (String[] names : name) {
+
+    System.out.println("Enter Name:");
+    names[0] = s.nextLine();
+
+    System.out.println("Print Role: ");
+    names[1] = s.nextLine();
+}
       
-         System.out.println("Enter Name:");
-         name[i][0] = s.nextLine();
-         System.out.println("Print Role: ");
-         name[i][1] = s.nextLine();
+      for( String[] names : name) {
       
-       
-      }
-      
-      for(int i = 0; i <name.length; i++) {
-      
-         if (name[i][1].equalsIgnoreCase("Manager")) {
-            System.out.print(name[i][0] + " Manager");
+         if (names[1].equalsIgnoreCase("Manager")) {
+            System.out.print(names[0] + " Manager");
          }
          else {
-            System.out.println(name[i][0] + " Staff");
+            System.out.println(names[0] + " Staff");
          }
       }
       
