@@ -17,7 +17,7 @@ public class Record {
       for( String[] names : name) {
       
          if (names[1].equalsIgnoreCase("Manager")) {
-            System.out.print(names[0] + " Manager");
+            System.out.println(names[0] + " Manager");
          }
          else {
             System.out.println(names[0] + " Staff");
