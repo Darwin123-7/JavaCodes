@@ -1,4 +1,3 @@
-package Encap;
 
 class Animal {
 
